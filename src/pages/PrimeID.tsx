@@ -1,5 +1,6 @@
-import { ShieldCheck, LineChart, Globe, Zap, ArrowRight } from "lucide-react";
+import { ShieldCheck, LineChart, Globe, Zap } from "lucide-react";
 import { Link } from "react-router-dom";
+import React from 'react';
 
 export function PrimeID() {
   return (

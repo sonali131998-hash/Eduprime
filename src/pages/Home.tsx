@@ -1,5 +1,6 @@
 import { ArrowRight, BookOpen, BrainCircuit, Target, Briefcase, ChevronRight, CheckCircle2 } from "lucide-react";
 import { Link } from "react-router-dom";
+import React from 'react';
 
 export function Home() {
   return (
