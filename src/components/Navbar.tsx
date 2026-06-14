@@ -28,13 +28,13 @@ export function Navbar() {
           </div>
           <div className="hidden md:flex space-x-8 items-center mt-1">
             {navLinks.map((link) => (
-              <a
+              <Link
                 key={link.name}
-                href={link.href}
+                to={link.href}
                 className="text-sm font-semibold text-slate-500 hover:text-slate-900 transition-colors"
               >
                 {link.name}
-              </a>
+              </Link>
             ))}
           </div>
           <div className="flex items-center space-x-4">
